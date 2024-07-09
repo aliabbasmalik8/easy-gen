@@ -7,7 +7,7 @@ import { ConfigModule } from '@nestjs/config';
 @Module({
   imports: [
     ConfigModule.forRoot(),
-    MongooseModule.forRoot(process.env.DATABASE_CONNECTION_URL),
+    MongooseModule.forRoot(process.env.DATABASE_CONNECTION_URL,{appName:"easy-gen"}),
     UserModule,
     AuthModule,
   ],

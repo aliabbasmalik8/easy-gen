@@ -7,7 +7,7 @@ Welcome to the Simple NestJS Login and Signup App! This app offers an easy and e
 Create a .env file and include the following environment variables:
 ```bash
 PASSWORD_HASH_SALT = $2b$10$wWFSfCsjvumSBwYZ7ll4qu
-DATABASE_CONNECTION_URL = mongodb://localhost:27017 (example)
+DATABASE_CONNECTION_URL = mongodb://localhost:27017/easy-gen (example)
 ```
 
 ## Installation
